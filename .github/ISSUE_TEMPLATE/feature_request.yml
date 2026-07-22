@@ -5,7 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Ask questions and receive support: https://discord.gg/JJXgjd9F6b
+        Join our Discord: https://discord.gg/JJXgjd9F6b
   - type: textarea
     id: problem
     attributes:
