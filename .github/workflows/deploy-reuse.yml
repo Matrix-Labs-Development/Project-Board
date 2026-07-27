@@ -1,17 +1,13 @@
-name: Deployment Reuse
+name: Deployment-Reuse
 
 on:
   push:
     branches:
       - production
-      
+
   workflow_dispatch:
 
 jobs:
-  notify:
-    name: Run Deployment Reuse
-
+  deploy:
     uses: Matrix-Labs-Development/matrix_Actions-Runners/.github/workflows/deploy.yml@production
-
     secrets: inherit
-    
