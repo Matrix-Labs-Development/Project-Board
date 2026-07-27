@@ -1,0 +1,14 @@
+name: Discord Reuse
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  notify:
+    name: Run Discord Reuse
+
+    uses: Matrix-Labs-Development/matrix_Actions-Runners/.github/workflows/reuse-discord.yml@production
+
+    secrets: inherit
+    
