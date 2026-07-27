@@ -11,7 +11,7 @@ jobs:
   notify:
     name: Run Discord Reuse
 
-    uses: Matrix-Labs-Development/matrix_Actions-Runners/.github/workflows/reuse-discord.yml@production
+    uses: Matrix-Labs-Development/matrix_Actions-Runners/.github/workflows/discord.yml@production
 
     secrets: inherit
     
